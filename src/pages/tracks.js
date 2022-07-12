@@ -14,7 +14,7 @@ query Query {
       photo
     }
     thumbnail
-    length
+    durationInSeconds
     modulesCount
   }
 }

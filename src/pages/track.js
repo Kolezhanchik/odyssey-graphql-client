@@ -13,14 +13,14 @@ query Query($trackId: ID!) {
         photo
       }
       thumbnail
-      length
+      durationInSeconds
       modulesCount
       description
       numberOfViews
       modules {
         id
         title
-        length
+        durationInSeconds
       }
     }
   }
