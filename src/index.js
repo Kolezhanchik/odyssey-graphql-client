@@ -5,7 +5,7 @@ import {ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client'
 import Pages from './pages';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
+  uri: 'https://odyssey-my-graphql-server.herokuapp.com/',
   cache: new InMemoryCache(),
 })
 ReactDOM.render(
